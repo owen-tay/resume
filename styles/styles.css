@@ -1,0 +1,68 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*Tailwind*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*npx tailwindcss -i styles/styles.css -o styles/output.css --watch*/
+
+/*css*/
+html * {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+
+ /*
+.header {
+    background-image: url("../images/cat.jpg"), url("paper.gif");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+*/
+
+
+/*some media qs*/
+
+@media (min-width: 300px) {
+    .navbar {
+      font-size: 0.5rem; 
+    }
+  }
+  @media (min-width: 300px) {
+    .navbar {
+      font-size: 1.25rem; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      font-size: 1.5rem; 
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .navbar{
+      font-size: 1.9rem; 
+    }
+  }
+
+/*animaiton*/
+
+.fadein {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
