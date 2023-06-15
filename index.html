@@ -26,53 +26,125 @@
         </div>
     </nav>
 
-
     <!--hero-->
-    <div class="header h-96 flex items-center justify-center">
+    <div class="header pb-10 md:pb-60 h-full flex items-center justify-center">
         <div class="text-xl">
-            <div class="fadein bg-red-myred text-yellow-myyellow text-4xl flex items-center justify-center h-full">
-                Owen Taylor
+            <div class="fadeinslow">
+                <img class="bgSvg1mobile md:bgSvg1 slide-top w-52 md:w-60 lg:w-96 xl:w-2/6" src="images/Ellipse.svg">
+                <img class="bgSvg2mobile md:bgSvg2 slide-top w-28 sm:w-36 md:w-56 lg:w-56 xl:w-72"
+                    src="images/Ellipse.svg">
+                <img class="bgSvg3mobile md:bgSvg3 slide-top w-36 md:w-44 lg:w-60 xl:w-3/12" src="images/Ellipse.svg">
+                <img class="bgSvg4mobile md:bgSvg4 slide-top w-36 md:w-72 lg:w-96 xl:w-96" src="images/Ellipse.svg">
+                <img class="bgSvg6mobile md:bgSvg6 slide-top w-10 md:w-36 lg:w-56 xl:w-56" src="images/Ellipse.svg">
+                <img class="bgSvg5mobile md:bgSvg5 slide-top w-24 md:w-60 lg:w-72 xl:w-72" src="images/Ellipse.svg">
             </div>
+            <div
+                class="fadein relative   text-yellow-myyellow text-xl mt-10 font-bold sm:m-24 sm:text-2xl md:text-4xl md:m-32  lg:m-32 xl:mx-64 lg:text-4xl flex items-center text-center justify-center h-full">
+                Hello! I am Owen. </div>
+            <div
+                class="fadein relative   text-white text-xl m-16 sm:m-24 sm:text-2xl md:text-4xl md:m-32  lg:m-32 xl:mx-64 lg:text-4xl flex items-center text-center justify-center h-full">
+                Welcome to my portfolio. I am a recent college graduate, eager to embark on my professional journey in
+                web development. With the enthusiasm to learn, grow, and contribute, I am eager to join a team
+                where I can apply my skills and passion for web development in a collaborative and innovative
+                environment. </div>
+            <div class="w-20 flex mx-auto">
+                <a href="javascript:void(0);" onclick="scrollToHerobot();">
+                    <img class="w-16 slide-top-fast flex mx-auto hover:w-20 ease-in-out duration-300"
+                        src="images/down.svg">
+                </a>
+            </div>
+
         </div>
     </div>
+    <div class="h-96">
 
+    </div>
     <!--hero bottom-->
-    <div class="grid grid-cols-2 md:flex md:justify-center md:items-center md:mx-10 lg:mx-24">
-        <div class="col-span-2 md:order-3 flex justify-center md:justify-start">
-            <img class="rounded-xl w-44 md:w-full" src="images/cat.jpg" alt="Me" />
+    <div id="herobot" class="grid grid-cols-2  md:flex md:justify-center md:items-center md:mx-10 lg:mx-24 pt-10 ">
+        <div class="col-span-2 my-4 pl-1 lg:pl-36 md:order-3 flex justify-center md:justify-start">
+            <img class="meImage rounded-full" src="images/2toneme.jpg" alt="Me" />
         </div>
         <div class="p-5  md:order-1 flex justify-center md:justify-start items-center">
-            <div class="border-t border-double border-yellow-myyellow">
+            <div class="slide-right border-t border-double border-yellow-myyellow">
                 <h2 class="text-xs md:text-sm lg:text-xl text-yellow-myyellow">Contact:</h2>
                 <p class="text-white text-sm md:text-lg lg:text-2xl">me@owentaylor.dev</p>
             </div>
         </div>
         <div class="p-5  md:order-2 flex justify-center md:justify-start items-center">
-            <div class="border-t pr-16 border-double border-yellow-myyellow">
+            <div class="slide-right border-t pr-20 border-double border-yellow-myyellow">
                 <h2 class="text-xs md:text-sm lg:text-xl text-yellow-myyellow">Location:</h2>
                 <p class="text-white text-sm md:text-lg lg:text-2xl">Glasgow</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="text-white text-xl md:text-2xl m-10 md:mx-64">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolores qui, nam quas atque aperiam blanditiis,
+        nisi quidem voluptas, labore tempore ipsa? Neque impedit harum debitis sequi maiores vitae cum unde qui,
+        molestiae natus, minima soluta, aspernatur sit dolor error.
+    </div>
+    <div >
+        <h3 class="text-yellow-myyellow pt-10 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
+            My Work
+        </h3>
+
+    </div>
+    <div class="mx-4 lg:mx-40">
+        <div class="grid grid-cols-1 md:grid-cols-2 md:flex md:justify-center md:items-center mt-10">
+            <div class="">
+                <video class="rounded-lg h-96 bg-cover" src="images/videos/testvideo.mkv" autoplay loop muted></video>
+            </div>
+            <div class="ml-10">
+                <h3 class="text-yellow-myyellow py-4 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
+                    CycleGlasgow
+                </h3>
+                <div class="max-w-md flex align-middle justify-center">
+                    <p class="text-white text-xl mt-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Similique fugit perferendis nobis animi enim sapiente placeat, voluptas impedit ullam
+                        maxime? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim at numquam dignissimos
+                        dolore itaque quis iure quidem dolor! Fugit, ad.</p>
+                </div>
+                <a href="map.php" class="pt-9 flex justify-center">
+                    <div
+                        class="bg-gradient-to-r from-yellow-myyellow to-yellow-100 w-48 h-9 text-red-myred shadow-lg rounded-2xl line text-center pt-1 drop-shadow-lg hoverSize text-lg transition ease-in-out mx-auto hover:scale-105">
+                        View Website
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 md:flex md:justify-center md:items-center mt-10">
+            <div class="">
+                <video class="rounded-lg h-96 bg-cover" src="images/videos/testvideo.mkv" autoplay loop muted></video>
+            </div>
+            <div class="ml-10">
+                <h3 class="text-yellow-myyellow py-4 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
+                    GetMedia
+                </h3>
+                <div class="max-w-md flex align-middle justify-center">
+                    <p class="text-white text-xl mt-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Similique fugit perferendis nobis animi enim sapiente placeat, voluptas impedit ullam
+                        maxime? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim at numquam dignissimos
+                        dolore itaque quis iure quidem dolor! Fugit, ad.</p>
+                </div>
+                <a href="map.php" class="pt-9 flex justify-center">
+                    <div
+                        class="bg-gradient-to-r from-yellow-myyellow to-yellow-100 w-48 h-9 text-red-myred shadow-lg rounded-2xl line text-center pt-1 drop-shadow-lg hoverSize text-lg transition ease-in-out mx-auto hover:scale-105">
+                        View Website
+                    </div>
+                </a>
             </div>
         </div>
     </div>
 
 
-
-
-
-
-    </div>
-    <!--work-->
-  
-
-
-
-
     <!--Footer-->
-    <footer class="bg-orange-myorange w-full h-10 flex items-center rounded-t-lg text-white">
+    <footer class="bg-orange-myorange w-full h-10 flex items-center rounded-t-lg text-white pt-12">
         <div class="mx-auto text-lg ">
             &#xA9; Owen Taylor
         </div>
     </footer>
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>

@@ -12,6 +12,31 @@
 /*css*/
 html * {
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+  /* Image */
+
+ .meImage{
+
+    width: 300px;
+
+  }
+
+  /*down arrow*/
+  .arrow {
+    scroll-behavior: smooth;
+
+  }
+
+/*change select colour*/
+
+::selection {
+    background: #1eecf3; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #1eecf3; /* Gecko Browsers */
   }
 
 
@@ -22,10 +47,9 @@ html * {
     background-position: center; 
     background-size: cover;
 }
-*/
 
+some media qs*/
 
-/*some media qs*/
 
 @media (min-width: 300px) {
     .navbar {
@@ -50,8 +74,15 @@ html * {
     }
   }
 
-/*animaiton*/
+/*animaitons*/
 
+
+/*scroll animation */
+
+
+
+
+/*header text*/
 .fadein {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -66,3 +97,193 @@ html * {
         opacity: 1;
      }
 }
+
+/*header text bg*/
+
+
+
+.fadeinslow {
+    animation: fadeInAnimationslow ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeInAnimationslow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+     }
+}
+
+  /*svgs*/
+
+  .slide-top-fast {
+	-webkit-animation: slide-top-fast 1.5s ease-in-out infinite alternate both;
+	        animation: slide-top-fast 1.5s ease-in-out infinite alternate both;
+}
+
+@-webkit-keyframes slide-top-fast {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+  }
+  @keyframes slide-top-fast {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-20px);
+              transform: translateY(-20px);
+    }
+  }
+
+  
+/*normal */
+
+  .slide-top {
+	-webkit-animation: slide-top 5s ease-in-out infinite alternate both;
+	        animation: slide-top 5s ease-in-out infinite alternate both;
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-40px);
+              transform: translateY(-40px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-40px);
+              transform: translateY(-40px);
+    }
+  }
+
+  
+
+  .bgSvg1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    animation-delay: 1.5s;
+  }
+  .bgSvg2{
+    position: absolute;
+    top: 12%;
+    left: 24%;
+    animation-delay: 100ms;
+
+  }
+  .bgSvg3{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+  .bgSvg4{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    animation-delay: 3s;
+
+  }
+  .bgSvg6{
+    position: absolute;
+    top: 23%;
+    left: 58%;
+    animation-delay: 5s;
+
+  }
+  .bgSvg5{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+
+
+  }
+
+/*mobile versions*/
+.bgSvg1mobile{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    animation-delay: 1.5s;
+  }
+  .bgSvg2mobile{
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    animation-delay: 100ms;
+
+  }
+  .bgSvg3mobile{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+  .bgSvg4mobile{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    animation-delay: 3s;
+
+  }
+  .bgSvg6mobile{
+    position: absolute;
+    top: 23%;
+    left: 75%;
+    animation-delay: 5s;
+
+  }
+  .bgSvg5mobile{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+
+
+  }
+
+/*others*/
+.slide-right {
+
+    
+    
+	-webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@keyframes slide-right {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    50% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-right {
+    animation: slide-right 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
+  }
+  
