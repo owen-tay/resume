@@ -33,10 +33,10 @@ html * {
 /*change select colour*/
 
 ::selection {
-    background: #1eecf3; /* WebKit/Blink Browsers */
+    background: #27c2ff; /* WebKit/Blink Browsers */
   }
   ::-moz-selection {
-    background: #1eecf3; /* Gecko Browsers */
+    background: #27c2ff; /* Gecko Browsers */
   }
 
 
@@ -216,6 +216,20 @@ some media qs*/
 
 
   }
+  .bgSvg7{
+    position: absolute;
+    top: 70%;
+    left: 58%;
+    animation-delay: 5s;
+
+  }
+  .bgSvg8{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+
+
+  }
 
 /*mobile versions*/
 .bgSvg1mobile{
@@ -254,6 +268,20 @@ some media qs*/
     position: absolute;
     top: 35%;
     left: 50%;
+
+
+  }
+  .bgSvg7mobile{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    animation-delay: 5s;
+
+  }
+  .bgSvg8mobile{
+    position: absolute;
+    top: 80%;
+    left: 20%;
 
 
   }
