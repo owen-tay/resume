@@ -5,23 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/output.css" />
+    <!--FA Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/output.css">
+    <title>Owen Taylor</title>
 </head>
 
 <body class="bg-red-myred">
     <!--Navbar-->
     <nav class="navbar m-7 md:m-10 lg:mx-56 flex justify-between items-center h-4 rounded-b-lg">
         <div class="ml-0 md:ml-4">
-            <a class="text-white hover:text-yellow-myyellow ease-in-out duration-200" href="index.html">
+            <a class="text-white hover:text-yellow-myyellow ease-in-out duration-200" href="https://owentaylor.dev/">
                 Owen Taylor
             </a>
         </div>
         <div class="space-x-4">
-            <a class="text-white hover:text-yellow-myyellow ease-in-out duration-200" href="index.html">
-                About
-            </a>
-            <a class="text-white hover:text-yellow-myyellow ease-in-out duration-200" href="index.html">
+            <a class="text-white hover:text-yellow-myyellow ease-in-out duration-200" href="javascript:void(0);"
+                onclick="scrollToHerobot();">
                 Contact
+            </a>
+            <a class="text-white hover:text-yellow-myyellow ease-in-out duration-200" href="#work">
+                Work
             </a>
         </div>
     </nav>
@@ -30,13 +34,18 @@
     <div class="header pb-10 md:pb-60 h-full flex items-center justify-center">
         <div class="text-xl">
             <div class="fadeinslow">
-                <img class="bgSvg1mobile md:bgSvg1 slide-top w-52 md:w-60 lg:w-96 xl:w-2/6" src="images/Ellipse.svg">
+                <img class="bgSvg1mobile md:bgSvg1 slide-top w-52 md:w-60 lg:w-96 xl:w-2/6" src="images/ellipse.svg"
+                    alt="circle">
                 <img class="bgSvg2mobile md:bgSvg2 slide-top w-28 sm:w-36 md:w-56 lg:w-56 xl:w-72"
-                    src="images/Ellipse.svg">
-                <img class="bgSvg3mobile md:bgSvg3 slide-top w-36 md:w-44 lg:w-60 xl:w-3/12" src="images/Ellipse.svg">
-                <img class="bgSvg4mobile md:bgSvg4 slide-top w-36 md:w-72 lg:w-96 xl:w-96" src="images/Ellipse.svg">
-                <img class="bgSvg6mobile md:bgSvg6 slide-top w-10 md:w-36 lg:w-56 xl:w-56" src="images/Ellipse.svg">
-                <img class="bgSvg5mobile md:bgSvg5 slide-top w-24 md:w-60 lg:w-72 xl:w-72" src="images/Ellipse.svg">
+                    src="images/ellipse.svg" alt="circle">
+                <img class="bgSvg3mobile md:bgSvg3 slide-top w-36 md:w-44 lg:w-60 xl:w-3/12" src="images/ellipse.svg"
+                    alt="circle">
+                <img class="bgSvg4mobile md:bgSvg4 slide-top w-36 md:w-72 lg:w-96 xl:w-96" src="images/ellipse.svg"
+                    alt="circle">
+                <img class="bgSvg6mobile md:bgSvg6 slide-top w-10 md:w-36 lg:w-56 xl:w-56" src="images/ellipse.svg"
+                    alt="circle">
+                <img class="bgSvg5mobile md:bgSvg5 slide-top w-24 md:w-60 lg:w-72 xl:w-72" src="images/ellipse.svg"
+                    alt="circle">
             </div>
             <div
                 class="fadein relative   text-yellow-myyellow text-xl mt-10 font-bold sm:m-24 sm:text-2xl md:text-4xl md:m-32  lg:m-32 xl:mx-64 lg:text-4xl flex items-center text-center justify-center h-full">
@@ -47,25 +56,25 @@
                 web development. With a strong desire to learn, grow, and contribute, I am excited to join a team where
                 I can apply my skills and passion for web development in a collaborative and innovative environment.
             </div>
-            <div class="w-20 flex mx-auto">
-                <a href="javascript:void(0);" onclick="scrollToHerobot();">
-                    <img class="w-16 slide-top-fast flex mx-auto hover:w-20 ease-in-out duration-300"
-                        src="images/down.svg">
-                </a>
-            </div>
+            <a class="downbutton w-5" href="javascript:void(0);" onclick="scrollToHerobot();">
+                <img class="downbutton w-16 slide-top-fast flex mx-auto hover:w-20 ease-in-out duration-300"
+                    src="images/down.svg" alt="down button">
+            </a>
 
         </div>
     </div>
     <div class="h-96 fadeinslow">
-        <img class="bgSvg7mobile md:bgSvg7 slide-top w-36 md:w-72 lg:w-96 xl:w-96" src="images/Ellipse.svg">
-        <img class="bgSvg8mobile md:bgSvg8 slide-top w-52 md:w-72 lg:w-96 xl:w-96" src="images/Ellipse.svg">
+        <img class="bgSvg7mobile md:bgSvg7 slide-top w-36 md:w-72 lg:w-96 xl:w-96" src="images/ellipse.svg"
+            alt="circle">
+        <img class="bgSvg8mobile md:bgSvg8 slide-top w-52 md:w-72 lg:w-96 xl:w-96" src="images/ellipse.svg"
+            alt="circle">
 
 
     </div>
     <!--hero bottom-->
     <div id="herobot" class="grid grid-cols-2  md:flex md:justify-center md:items-center md:mx-10 lg:mx-24 pt-10  ">
         <div class="col-span-2 my-4 pl-1 lg:pl-36 md:order-3 flex justify-center md:justify-start">
-            <img class="meImage rounded-full " src="images/2toneme.jpg" alt="Me" />
+            <img class="meImage rounded-full " src="images/2toneme.jpg" alt="Me">
         </div>
         <div class="p-5  md:order-1 flex justify-center md:justify-start items-center">
             <div class="slide-right border-t border-double border-yellow-myyellow">
@@ -81,13 +90,87 @@
         </div>
 
     </div>
-    <div class="text-white text-xl md:text-2xl m-10 md:mx-64">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolores qui, nam quas atque aperiam blanditiis,
-        nisi quidem voluptas, labore tempore ipsa? Neque impedit harum debitis sequi maiores vitae cum unde qui,
-        molestiae natus, minima soluta, aspernatur sit dolor error.
+    <div
+        class="flex text-white justify-center items-center gap-10 ease-in-out duration-200 text-xl md:text-2xl m-10 md:mx-64">
+        <a href="https://github.com/owen-tay">
+            <img class="w-12 hover:scale-125 ease-in-out duration-200" src="./images/github.svg" alt="Github Icon">
+        </a>
+        <a href="https://www.linkedin.com/in/owen-taylor-3b38ba272/">
+            <img class="w-12 hover:scale-125 ease-in-out duration-200" src="./images/linkedin.svg" alt="Linkedin Icon">
+        </a>
     </div>
+    <div class="text-white text-xl md:text-2xl m-10 md:mx-64">
+        I recently graduated with an HND in web development from City Of Glasgow College. I am excited to apply my
+        skills and knowledge to new projects and embark on a rewarding career in the field. With experience in
+        JavaScript, PHP, SQL, Figma, Git, as well as some exposure to React and MongoDB, I am eager to contribute
+        and make a positive impact in web development.
+    </div>
+    <div
+        class="flex text-white justify-center items-center gap-2 sm:gap-5 md:gap-10 ease-in-out duration-200 text-xl md:text-2xl m-10 md:mx-64">
+        <img class="w-12 hover:scale-125 ease-in-out duration-200" src="./images/html.svg" alt="html Icon">
+        <img class="w-12 hover:scale-125 ease-in-out duration-200" src="./images/css.svg" alt="css Icon">
+        <img class="w-12 hover:scale-125 ease-in-out duration-200" src="./images/js.svg" alt="js Icon">
+        <img class="w-12 hover:scale-125 ease-in-out duration-200" src="./images/react.svg" alt="react Icon">
+        <img class="w-12 hover:scale-125 ease-in-out duration-200" src="./images/php.svg" alt="php Icon">
+    </div>
+    <!--Contact form-->
+    <div id="contactBtn"
+        class="showclick bg-gradient-to-r from-yellow-myyellow to-yellow-100 w-48 h-9 text-red-myred shadow-lg rounded-2xl line text-center pt-1 drop-shadow-lg hoverSize text-lg transition ease-in-out mx-auto hover:scale-105">
+        Contact Me
+    </div>
+    <div id="contactForm" class="hidden flex items-center min-h-fit min-h-">
+        <div class="container mx-auto">
+            <div class="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+                <div class="text-center">
+                    <h1 class="my-3 text-3xl font-semibold text-red-myred ">
+                        Contact Me
+                    </h1>
+                    <p class="text-gray-400 ">
+                        Fill up the form below to send me a message.
+                    </p>
+                </div>
+                <div class="m-7">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                        <input type="hidden" name="access_key" value="3528de92-4eb2-4a9d-a6c9-195afb85db01" />
+                        <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                        <div class="mb-6">
+                            <label for="name" class="block mb-2 text-sm text-gray-600 ">Full
+                                Name</label>
+                            <input type="text" name="name" id="name" placeholder="John Doe" required
+                                class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300      " />
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block mb-2 text-sm text-gray-600 ">Email
+                                Address</label>
+                            <input type="email" name="email" id="email" placeholder="you@email.com" required
+                                class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300      " />
+                        </div>
+
+                        <div class="mb-6">
+                            <label for="message" class="block mb-2 text-sm text-gray-600 ">Your
+                                Message</label>
+
+                            <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                                class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300      "
+                                required></textarea>
+                        </div>
+                        <div class="flex">
+                            <button type="submit"
+                                class="bg-gradient-to-r from-yellow-myyellow to-yellow-100 w-48 h-9 text-red-myred shadow-lg rounded-2xl line text-center py-1 drop-shadow-lg hoverSize text-lg transition ease-in-out mx-auto hover:scale-105">
+                                Send Message
+                            </button>
+                        </div>
+                        <p class="text-base text-center text-gray-400" id="result"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div>
-        <h3 class="text-yellow-myyellow pt-10 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
+        <h3 id="work" class="text-yellow-myyellow pt-20 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
             My Work
         </h3>
 
@@ -102,7 +185,7 @@
                 <h3 class="text-yellow-myyellow py-4 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
                     CycleGlasgow
                 </h3>
-                <div class="max-w-md flex align-middle justify-center">
+                <div class="max-w-md mx-auto flex items-center justify-center">
                     <p class="text-white text-xl mt-3">For a college project, I was tasked with developing a dynamic
                         website that promotes cycling in Glasgow. The website offers various functionalities, such as
                         user registration and login, posting cycling-related listings (similar to Gumtree), displaying a
@@ -124,14 +207,44 @@
             </div>
             <div class="ml-0 md:ml-10">
                 <h3 class="text-yellow-myyellow py-4 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
-                    CycleGlasgow
+                    GetMedia
                 </h3>
-                <div class="max-w-md flex align-middle justify-center">
+                <div class="max-w-md mx-auto flex items-center justify-center">
                     <p class="text-white text-xl mt-3">A website that allows users to search and listen to previews of
                         songs from the Itunes API. Also features a shopping cart that lets the user add gift cards to
                         it. </p>
                 </div>
-                <a href="https://648eeccadeb93b1d7386d8e5--gentle-custard-125cea.netlify.app/" target="_blank" class="pt-9 flex justify-center">
+                <a href="https://648eeccadeb93b1d7386d8e5--gentle-custard-125cea.netlify.app/" target="_blank"
+                    class="pt-9 flex justify-center">
+                    <div
+                        class="bg-gradient-to-r from-yellow-myyellow to-yellow-100 w-48 h-9 text-red-myred shadow-lg rounded-2xl line text-center pt-1 drop-shadow-lg hoverSize text-lg transition ease-in-out mx-auto hover:scale-105">
+                        View Website
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div>
+            <h3 class="text-yellow-myyellow pt-10 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
+                Other Projects
+            </h3>
+
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 md:flex md:justify-center md:items-center mt-0 md:mt-10">
+            <div class="flex justify-center">
+                <video class="rounded-lg h-80 md:h-96 bg-cover" src="images/videos/copypasta.mp4" autoplay loop
+                    muted></video>
+            </div>
+            <div class="ml-0 md:ml-10">
+                <h3 class="text-yellow-myyellow py-4 font-bold text-4xl md:text-2xl lg:text-4xl text-center">
+                    React Text Processor
+                </h3>
+                <div class="max-w-md mx-auto flex items-center justify-center">
+                    <p class="text-white text-xl mt-3">While learning React, I created a little app that takes the users
+                        text and adds emojis onto certain words. Features dark and light mode and can copy the text to
+                        the clipboard.</p>
+                </div>
+                <a href="https://copypastagen.vercel.app/" target="_blank" class="pt-9 flex justify-center">
                     <div
                         class="bg-gradient-to-r from-yellow-myyellow to-yellow-100 w-48 h-9 text-red-myred shadow-lg rounded-2xl line text-center pt-1 drop-shadow-lg hoverSize text-lg transition ease-in-out mx-auto hover:scale-105">
                         View Website
@@ -143,12 +256,13 @@
 
 
     <!--Footer-->
-    <footer class="bg-orange-myorange w-full h-10 flex items-center rounded-t-lg text-white pt-12">
+    <footer class="bg-orange-myorange w-full h-10 flex items-center rounded-t-lg text-white pt-20 pb-5">
         <div class="mx-auto text-lg ">
-            &#xA9; Owen Taylor
+            &#xA9; Owen Taylor | 2023
         </div>
     </footer>
     <script src="js/scripts.js"></script>
+
 
 </body>
 

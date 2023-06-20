@@ -10,6 +10,8 @@
 /*npx tailwindcss -i styles/styles.css -o styles/output.css --watch*/
 
 /*css*/
+
+
 html * {
     font-family: 'Ubuntu', sans-serif;
     scroll-behavior: smooth;
@@ -29,6 +31,12 @@ html * {
     scroll-behavior: smooth;
 
   }
+
+/*show form + cursor stuff*/
+.showclick {
+  cursor: pointer;
+}
+
 
 /*change select colour*/
 
@@ -174,7 +182,17 @@ some media qs*/
               transform: translateY(-40px);
     }
   }
+  .meImage {
+    z-index: 1;
+}
+.bgSvg1, .bgSvg2, .bgSvg3, .bgSvg4, .bgSvg5, .bgSvg6, .bgSvg7, .bgSvg8 {
+  z-index: 0;
+}
 
+.downbutton {
+  position: relative; 
+  z-index: 2;
+}
   
 
   .bgSvg1{
@@ -227,6 +245,7 @@ some media qs*/
     position: absolute;
     top: 75%;
     left: 60%;
+    z-index: -1;
 
 
   }
